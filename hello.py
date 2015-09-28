@@ -1,2 +1,6 @@
 __author__ = 'mst2jd'
-print("hello")
+
+def greeting(msg):
+    print(msg)
+
+greeting("hello")
