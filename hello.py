@@ -1,5 +1,7 @@
 __author__ = 'mst2jd'
 
 import helper
+import lower
 
-helper.greeting("hello")
+helper.greeting("HELLO")
+helper.greeting(lower.whisper("HELLO"))
