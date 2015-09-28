@@ -1,6 +1,5 @@
 __author__ = 'mst2jd'
 
-def greeting(msg):
-    print(msg)
+import helper
 
-greeting("hello")
+helper.greeting("hello")
